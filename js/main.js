@@ -1,6 +1,5 @@
 $(document).ready(function() {
 
-
     $('.cpf-completo').mask('000.000.000-00', {
         placeholder: '123.456.789-01'
     })
@@ -49,8 +48,9 @@ $(document).ready(function() {
             let camposIncorretos = validador.numberOfInvalids();
             if (camposIncorretos) {
                 alert(`Existem ${camposIncorretos} campos incorretos.`)
-                console.log(`Existem ${camposIncorretos} campos incorretos.`)
             }
         }
     })
+    $('.botao-enviar').click() 
+        $(label) = '';
 })
