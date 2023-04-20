@@ -49,6 +49,7 @@ $(document).ready(function() {
             let camposIncorretos = validador.numberOfInvalids();
             if (camposIncorretos) {
                 alert(`Existem ${camposIncorretos} campos incorretos.`)
+                console.log(`Existem ${camposIncorretos} campos incorretos.`)
             }
         }
     })
