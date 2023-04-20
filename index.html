@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro - EBAC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalho-titulo">Tela de Cadastro</h1>
+    </header>
+    <form class="formulario">
+        <div class="geral">
+            <div class="container">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" class="nome-completo" name="nomeCompleto"/>
+            </div>
+            <div class="container">
+                <label for="email">E-mail:</label>
+                <input type="email" class="email-completo" name="email"/>
+            </div>
+            <div class="container">
+                <label for="telefone">Telefone:</label>
+                <input type="text" class="telefone-completo" name="telefone"/>
+            </div>
+            <div class="container">
+                <label for="cpf">CPF:</label>
+                <input type="text" class="cpf-completo" max="12" name="cpf"/>
+            </div>
+            <div class="container">
+                <label for="endereco">Endereço Completo:</label>
+                <input type="text" class="endereco-completo" name="enderecoCompleto"/>
+            </div>
+            <div class="container">
+                <label for="cep">CEP:</label>
+                <input type="text" class="cep-completo" name="cep"/>
+            </div>
+            <div class="button">
+                <button type="submit" class="botao-enviar">Enviar</button>
+            </div>
+        </div>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="main.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/messages_pt_BR.min.js"></script>
+</body>
+</html>
